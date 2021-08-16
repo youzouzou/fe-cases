@@ -1,5 +1,7 @@
-JS目前共有 8 种数据类型。
+JS目前共有 **8** 种数据类型。
 
+
+### 7种基本类型
 其中 7 种**基本类型**，可使用`typeof`运算符进行检查：
 1. undefined：已声明未赋值的变量初始值
 2. boolean：布尔值
@@ -13,7 +15,13 @@ JS目前共有 8 种数据类型。
 
 除了**null**和**undefined**，其他 5 种基本类型都有对应的包装对象(将基本类型的首字母改为大写即为对应包装对象)。
 
- 
-**引用类型**，
+ ### 1种引用类型
+1 种**引用类型**：**Object**。
 
- 
+在JavaScript中，几乎所有的对象都是Object类型的实例，它们都会从Object.prototype继承属性和方法。
+
+Function、Array、Date以及上面基本类型的包装对象，实际上都是由Object派生的，都属于Object类(用instanceof运算符检测结果为true，如 `Function instanceof Object` )。
+
+---
+#### 参考资料
+[1] [语法和数据类型](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_types#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%B1%BB%E5%9E%8B)
