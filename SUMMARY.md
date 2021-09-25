@@ -1,4 +1,3 @@
-# Table of contents
+[目录](list.md)
 
-* [前端基础知识库](README.md)
 
